@@ -30,10 +30,13 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 plugins:
+  - jekyll-postcss
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap # If you have other plugins which generate content and store that content in site.pages, site.posts, or site.collections, be sure to require jekyll-sitemap either after those other gems
 
+postcss:
+  cache: false
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
