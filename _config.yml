@@ -40,7 +40,7 @@ postcss:
 
 collections:
   posts:
-    output: true # ?
+    output: true # ? https://github.com/jekyll/jekyll/issues/5906
     permalink: /blog/:title # /blog/:year/:month/:day/:title/
 
 # Exclude from processing.
