@@ -37,6 +37,12 @@ plugins:
 
 postcss:
   cache: false
+
+collections:
+  posts:
+    output: true # ? https://github.com/jekyll/jekyll/issues/5906
+    permalink: /blog/:title # /blog/:year/:month/:day/:title/
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
