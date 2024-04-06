@@ -1,7 +1,4 @@
----
----
-
-@tailwind base;
+--- --- @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -121,8 +118,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
-  line-height: 1.4;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 /**
@@ -281,6 +278,7 @@ table td {
 .post-list-heading {
   font-weight: 600;
   font-size: 28px;
+  margin-bottom: 12px;
 }
 
 .post-list {
@@ -313,7 +311,6 @@ table td {
   font-size: 40px;
   font-weight: 600;
   letter-spacing: -1px;
-  line-height: 1;
   margin-bottom: 10px;
 }
 
