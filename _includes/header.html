@@ -3,7 +3,7 @@
   <div class="custom-wrapper flex items-center py-4">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="text-xl whitespace-nowrap !no-underline !text-black !font-light" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="text-2xl whitespace-nowrap !no-underline !text-black !font-light" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
     {%- if page_paths -%}
     <nav class="w-full flex justify-end items-center">
