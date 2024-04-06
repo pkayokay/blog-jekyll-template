@@ -287,7 +287,7 @@ table td {
 
 .post-meta {
   font-size: 14px;
-  color: #828282;
+  opacity: 0.6;
 }
 
 .post-link {
@@ -303,9 +303,11 @@ table td {
 }
 
 .post-title {
-  font-size: 42px;
+  font-size: 40px;
+  font-weight: 600;
   letter-spacing: -1px;
   line-height: 1;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 800px) {
