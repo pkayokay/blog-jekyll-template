@@ -123,12 +123,8 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: #1756a9;
-}
-
 a:hover {
-  color: #111;
+  color: #1756a9;
   text-decoration: underline;
 }
 
@@ -273,6 +269,7 @@ table td {
 }
 
 .post-list-heading {
+  font-weight: 600;
   font-size: 28px;
 }
 
