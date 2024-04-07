@@ -51,7 +51,7 @@ figure {
  */
 body {
   font: 400 18px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #111;
+  color: #333;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -144,8 +144,23 @@ h5,
 h6 {
   font-weight: 600;
   line-height: 1.3;
+  color: black;
 }
 
+header nav a {
+  margin-left: 0.5rem;
+}
+
+header nav a:after {
+  margin-left: 0.5rem;
+  opacity: 0.3;
+  text-decoration: none !important;
+  content: '·';
+}
+
+header nav a:last-of-type:after {
+  content: '';
+}
 /**
  * Links
  */
@@ -299,7 +314,7 @@ table td {
 }
 
 .post-list-heading {
-  font-size: 28px;
+  font-size: 32px;
   margin-bottom: 14px;
   font-weight: 700;
 }
@@ -321,7 +336,7 @@ table td {
 .post-link {
   display: inline-block;
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.4;
 }
 
