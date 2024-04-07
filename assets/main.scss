@@ -147,20 +147,6 @@ h6 {
   color: black;
 }
 
-header nav a {
-  margin-left: 0.5rem;
-}
-
-header nav a:after {
-  margin-left: 0.5rem;
-  opacity: 0.3;
-  text-decoration: none !important;
-  content: '·';
-}
-
-header nav a:last-of-type:after {
-  content: '';
-}
 /**
  * Links
  */
